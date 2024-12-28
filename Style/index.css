@@ -1,0 +1,167 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+#maincontainer {
+    height: 80vh;
+    width: 70vw;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 15px 5px rgba(0, 0, 0,0.5);
+    position: relative;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(#aca8a3,#817d7a);
+}
+section.heads {
+    background: linear-gradient(to right,#3c4043,#16171b);
+    border-radius: 20px 20px 0px 0px;
+}
+section.heads ul.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    height: 10%;
+}
+section.heads ul.container li:first-child div {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+section.spotlight {
+    background: linear-gradient(to right,#d4d4d2,#adadad);
+    border-bottom: 1px solid;
+}
+section.spotlight #wrapper {
+    margin-right: 0px;
+}
+section.spotlight ul.container {
+    display: flex;
+}
+section.spotlight ul.container li.left {
+    width: 80%;
+}
+section.spotlight ul.container li.left div.top {
+    width: fit-content;
+}
+section.spotlight ul.container li.left div.top h1 {
+    font-size: 50px;
+}
+section.spotlight ul.container li.left div.middle {
+    width: 60%;
+    margin: 10px 0;
+}
+section.spotlight ul.container li.left div.middle p {
+
+}
+section.spotlight ul.container li.left ul.bottom {
+
+}
+section.spotlight ul.container li.left ul.bottom {
+    padding: 10px  0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section.spotlight ul.container li.left ul.bottom li.bottom_left {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+section.spotlight ul.container li.left ul.bottom li.bottom_left a {
+    display: block;
+    padding: 10px 20px;
+    border: 1px solid;
+    font-weight: bold;
+    border-radius: 20px;
+}
+section.spotlight ul.container li.left ul.bottom li.bottom_left a:first-child {
+    background-color: #16171b;
+}
+section.spotlight ul.container li.left ul.bottom li.bottom_left a:last-child {
+    color: black;
+    background-color: white;
+}
+section.spotlight ul.container li.left ul.bottom li.bottom_right{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    margin:  0 100px 0 0;
+}
+section.spotlight ul.container li.left ul.bottom li.bottom_right  div {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 100%;
+}
+section.spotlight ul.container li.left ul.bottom li.bottom_right  div.first {
+
+}
+section.spotlight ul.container li.left ul.bottom li.bottom_right div.second {
+    
+}
+section.spotlight ul.container li.left ul.bottom li.bottom_right div.last {
+
+}
+
+section.spotlight ul.container li.right {
+    width: 20%;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0 0 0;
+    background: linear-gradient(to bottom right ,#3d3f41, #1c1c1e);
+}
+section.spotlight ul.container li.right div.logo {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 50%;
+}
+section.spotlight ul.container li.right h1 {
+    font-size: 25px;
+    margin: 5px auto;
+    color: white;
+}
+section.spotlight ul.container li.right ul.cont {
+    display: flex;
+}
+section.spotlight ul.container li.right ul.cont li.top {
+
+}
+section.spotlight ul.container li.right ul.cont li.top div.A {
+
+}
+section.spotlight ul.container li.right ul.cont li.top p {
+
+}
+section.spotlight ul.container li.right ul.cont li.bottom {
+
+}
+section.spotlight ul.container li.right ul.cont li.bottom div.B {
+
+}
+section.spotlight ul.container li.right ul.cont li.bottom p {
+
+}
